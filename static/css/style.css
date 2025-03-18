@@ -1,0 +1,138 @@
+/* Body Styles */
+body {
+    background-color: #E9EFEC;
+    font-family: Arial, sans-serif;
+    color: #343a40;
+}
+
+/* Container Styles */
+.container {
+    margin-top: 20px;
+}
+
+/* Title Section Styles */
+.col-md-12.p-3.text-center.bg-light {
+    margin: 0 auto;
+    padding: 10px;
+    border: 1px solid #6A9C89;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+/* Flexbox for Alignment */
+.row.d-flex {
+    display: flex;
+    align-items: stretch;
+}
+
+.col-md-4.d-flex {
+    display: flex;
+    flex-direction: column;
+}
+
+.col-md-8.d-flex, .card.card-primary.flex-grow-1 {
+    display: flex;
+    flex-grow: 1;
+}
+
+.card.card-body.bg-light.mb-3 {
+    flex: 0 0 auto;
+}
+
+/* Card Body Styles */
+.card-body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Standard Box Styles */
+.standard-box {
+    border: 1px solid #6A9C89;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    background-color: #ffffff;
+}
+
+/* Chart Container Styles */
+.chart-container {
+    border: 1px solid #6A9C89;
+    border-radius: 5px;
+    padding: 5px;
+    background-color: #ffffff;
+    margin-bottom: 20px;
+}
+
+/* Chart Title Styles */
+.chart-title {
+    padding: 5px;
+    text-align: center;
+    font-weight: bold;
+    height: 25px;
+}
+
+.chart-title + .standard-box {
+    margin-top: 10px;
+}
+
+/* Specific Adjustments for box0 */
+#box0 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+}
+
+#box0 .plotly .title {
+    font-size: 12px;
+    white-space: pre-wrap;
+    text-align: center;
+}
+
+/* Specific Adjustments for box1 */
+#box1 {
+    width: 100%;
+    height: 400px;
+    position: relative;
+    border: 1px solid #6A9C89; 
+    border-radius: 5px; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    padding: 10px; 
+    background-color: #ffffff;
+}
+
+/* Specific Adjustments for box3 */
+#box3 {
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+/* Specific Adjustments for the Filter Section */
+.card.card-body.bg-light {
+    height: auto;
+    padding: 5px;
+}
+
+.card.card-body.bg-light h6 {
+    font-size: 0.8rem;
+}
+
+.card.card-body.bg-light select {
+    font-size: 0.8rem;
+}
+
+/* Card Primary Styles */
+.card.card-primary {
+    flex-grow: 1;
+    height: 100%;
+}
+
+/* Row Styles for the Map */
+.row.mb-5 {
+    margin-top: -40px;
+}
